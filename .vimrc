@@ -103,13 +103,13 @@ set foldclose=all
 set expandtab
 
 "设置所有的Tab和缩进为4个空格"
-set tabstop=2
+set tabstop=4
 
 "设定<<和>>命令移动时的宽度为4"
-set shiftwidth=2
+set shiftwidth=4
 
 "使得按退格键时可以一次删除4个空格"
-set softtabstop=2
+set softtabstop=4
 set smarttab
 
 "缩进，自动缩进（继承前一行的缩进）"
@@ -126,7 +126,7 @@ set si
 set wrap
 
 "设置软宽度"
-set sw=2
+set sw=4
 
 "行内替换"
 set gdefault
