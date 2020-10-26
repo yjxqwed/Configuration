@@ -96,6 +96,14 @@ set foldclose=all
 "zf F-old creation (创建折叠)
 "nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 
+"remap cursor move keys"
+nnoremap i k
+nnoremap k j
+nnoremap j h
+
+"remap line head/end keys"
+nmap lh ^
+nmap le $
 """""""""""""""""""""""""""""""""""
 """=>文字处理<="""
 """""""""""""""""""""""""""""""""""
